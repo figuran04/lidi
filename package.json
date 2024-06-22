@@ -1,5 +1,5 @@
 {
-  "name": "animelist",
+  "name": "lidi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.6",
     "autoprefixer": "10.4.19",
+    "framer-motion": "^11.2.10",
     "next": "14.2.4",
     "postcss": "8.4.38",
     "react": "18.3.1",
