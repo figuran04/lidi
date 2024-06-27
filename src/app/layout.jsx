@@ -1,5 +1,6 @@
 import localFont from "next/font/local"
 import "./globals.css"
+import Navbar from "@/components/Navbar"
 const sfProDisplay = localFont({
   src: [
     {
@@ -108,6 +109,7 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning={true}
       >
         {children}
+        <Navbar />
       </body>
     </html>
   )

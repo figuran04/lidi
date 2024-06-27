@@ -7,9 +7,9 @@ const Back = () => {
     <div>
       <button
         onClick={() => router.back()}
-        className="my-2 flex items-center font-arialBold"
+        className="my-2 flex items-center font-bold"
       >
-        Back
+        Kembali
       </button>
     </div>
   )

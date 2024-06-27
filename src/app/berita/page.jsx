@@ -1,9 +1,15 @@
-import Link from "next/link"
+import BeritaHeader from "./BeritaHeader"
+import BeritaSearch from "./BeritaSearch"
+import BeritaTab from "./BeritaTab"
+import BeritaList from "./BeritaList"
 
 const BeritaPage = () => {
   return (
-    <div>
-      <Link href="/beranda">berita pages</Link>
+    <div className="py-10">
+      <BeritaHeader />
+      <BeritaSearch />
+      <BeritaTab />
+      <BeritaList />
     </div>
   )
 }
